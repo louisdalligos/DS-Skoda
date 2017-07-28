@@ -539,6 +539,9 @@ h6 {
   background-image: -webkit-linear-gradient(top, #fffeff 0%, #f6f6f6 51%, #ebebeb 100%);
   background-image: linear-gradient(to bottom, #fffeff 0%, #f6f6f6 51%, #ebebeb 100%);
 }
+.skoda1_page-body-content .skoda1_cta-block .widget-title{
+  display: none;
+}
 .skoda1_page-body-content .skoda1_cta-block .cta-block-content {
   float: left;
   height: 84px;

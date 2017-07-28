@@ -172,3 +172,8 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+/**
+ * Implement custom widget feature.
+ */
+require get_template_directory() . '/inc/custom-widgets.php';
