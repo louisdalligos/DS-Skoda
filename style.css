@@ -7,6 +7,1180 @@ Description: Description
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: LICENSE
-Text Domain: ds-suzuki
+Text Domain: ds-skoda
 Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
 */
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  color: #000;
+  background-color: #FFF;
+  font-family: "skoda_proregular", arial, serif;
+}
+
+a {
+  color: #4ba82e;
+}
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+address {
+  margin-bottom: 10px;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.bold-text,
+strong,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "skoda_probold";
+}
+
+.color-primary {
+  color: #4ba82e;
+}
+
+.color-grey {
+  color: #a7aeb4;
+}
+
+.color-default {
+  color: #dbeed5;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.skoda1_widget-title {
+  font-family: "skoda_probold";
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+
+.skoda1_page-body-content {
+  width: 100%;
+  padding-bottom: 23px;
+}
+.skoda1_page-body-content p {
+  line-height: 24px;
+}
+
+.section-text {
+  padding-top: 28px;
+}
+
+.mobile-image {
+  width: 100%;
+}
+
+.btn-primary,
+.btn-default {
+  text-transform: uppercase;
+  font-family: "skoda_probold";
+  padding: 0;
+}
+.btn-primary span,
+.btn-default span {
+  text-transform: uppercase;
+  display: block;
+  font-size: 18px;
+  padding: 5px 12px;
+  color: #FFF;
+}
+
+.btn-primary {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE5MTkxOSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMGYxMDEwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDEwMTAxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #191919), color-stop(50%, #0f1010), color-stop(100%, #010101));
+  background-image: -moz-linear-gradient(#191919, #0f1010, #010101);
+  background-image: -webkit-linear-gradient(#191919, #0f1010, #010101);
+  background-image: linear-gradient(#191919, #0f1010, #010101);
+  border-color: #2D2D2D;
+}
+.btn-primary:focus, .btn-primary:hover, .btn-primary:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE5MTkxOSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMGYxMDEwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDEwMTAxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #191919), color-stop(50%, #0f1010), color-stop(100%, #010101));
+  background-image: -moz-linear-gradient(#191919, #0f1010, #010101);
+  background-image: -webkit-linear-gradient(#191919, #0f1010, #010101);
+  background-image: linear-gradient(#191919, #0f1010, #010101);
+  border-color: #000;
+}
+.btn-primary span {
+  border-top: 1px solid #444;
+}
+
+.btn-default {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiYTgyZSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjNDI5NTI5Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNGFhNTJkIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4ba82e), color-stop(50%, #429529), color-stop(100%, #4aa52d));
+  background-image: -moz-linear-gradient(#4ba82e, #429529, #4aa52d);
+  background-image: -webkit-linear-gradient(#4ba82e, #429529, #4aa52d);
+  background-image: linear-gradient(#4ba82e, #429529, #4aa52d);
+  border-color: #3f8d27;
+}
+.btn-default:focus, .btn-default:hover, .btn-default:active {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiYTgyZSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjNDI5NTI5Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNGFhNTJkIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4ba82e), color-stop(50%, #429529), color-stop(100%, #4aa52d));
+  background-image: -moz-linear-gradient(#4ba82e, #429529, #4aa52d);
+  background-image: -webkit-linear-gradient(#4ba82e, #429529, #4aa52d);
+  background-image: linear-gradient(#4ba82e, #429529, #4aa52d);
+  border-color: #429529;
+}
+.btn-default span {
+  border-top: 1px solid #6cb655;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+.skoda1_page-bottom-content {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("../img/car-gallery-bg.jpg");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("../img/car-gallery-bg.jpg");
+  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+}
+.skoda1_page-bottom-content .skoda1_page-bottom-content-inner {
+  position: relative;
+  padding: 50px 0;
+}
+.skoda1_page-bottom-content .skoda1_page-bottom-content-inner:after {
+  content: "";
+  background: url("../img/custom-shape-bg.png") no-repeat;
+  height: 35px;
+  position: absolute;
+  width: 159px;
+  top: 0;
+  right: -10px;
+}
+
+.navbar-default {
+  background-color: #000;
+  border-color: transparent;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  background-color: transparent;
+  color: #4ba82e;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #4ba82e;
+}
+@media (min-width: 750px) {
+  .navbar-default .navbar-nav > li:first-child > a {
+    padding-left: 0;
+  }
+}
+
+.mobile-menu-label {
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.navbar {
+  min-height: 38px;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.navbar-toggle {
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  border: 0;
+  border-color: transparent;
+  font-size: 20px;
+  color: #4ba82e;
+  padding: 0;
+}
+
+.navbar-collapse {
+  border: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding-left: 15px;
+}
+@media (min-width: 750px) {
+  .navbar-collapse {
+    padding-left: 0;
+  }
+}
+
+.skoda1_page-header .col-xs-6 {
+  padding-left: 0;
+}
+.skoda1_page-header .navbar {
+  min-height: 42px;
+  margin-bottom: 0;
+}
+.skoda1_page-header .navbar-default {
+  background-color: #4ba82e;
+  border: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -moz-box-shadow: inset 0px -5px 14px -5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: inset 0px -5px 14px -5px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px -5px 14px -5px rgba(0, 0, 0, 0.75);
+}
+.skoda1_page-header .navbar-default .navbar-nav > li > a {
+  color: #FFF;
+  text-transform: uppercase;
+}
+.skoda1_page-header .navbar-default .navbar-nav > li > a:hover, .skoda1_page-header .navbar-default .navbar-nav > li > a:focus {
+  color: #dbeed5;
+}
+.skoda1_page-header .navbar-default .navbar-nav > .active > a {
+  background-color: transparent;
+  color: #dbeed5;
+}
+.skoda1_page-header .navbar-default .navbar-nav > .active > a:hover, .skoda1_page-header .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .skoda1_page-header .nav > li > a {
+    padding: 10px 13px;
+  }
+  .skoda1_page-header .nav > li:first-child > a {
+    padding-left: 0;
+  }
+}
+.skoda1_page-header .skoda1_branding {
+  background-color: #FFF;
+  height: 80px;
+  position: relative;
+}
+.skoda1_page-header .skoda1_branding .skoda1_branding-tagline {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.skoda1_page-header .skoda1_branding .logo-img {
+  position: relative;
+  z-index: 20;
+  float: right;
+  padding-top: 10px;
+  margin-right: 27px;
+}
+.skoda1_page-header .skoda1_site-info {
+  height: 45px;
+  position: relative;
+  color: #FFF;
+  z-index: 10;
+  clear: both;
+  top: 0;
+}
+.skoda1_page-header .skoda1_site-info:after {
+  content: "";
+  background-color: #000;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+.skoda1_page-header .skoda1_site-info .cta-message {
+  margin: -10px 0 0;
+}
+.skoda1_page-header .skoda1_site-info .skoda1_site-name,
+.skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop {
+  text-transform: uppercase;
+}
+.skoda1_page-header .skoda1_site-info .skoda1_site-name {
+  font-size: 24px;
+  float: left;
+  margin: 10px 0 0;
+}
+.skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop {
+  float: right;
+  color: #4ba82e;
+  font-size: 19px;
+  position: relative;
+  top: 20px;
+  padding-right: 140px;
+}
+.skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop:after {
+  content: "";
+  background: url("../img/logo-overlay-bg.png") no-repeat;
+  height: 35px;
+  position: absolute;
+  width: 161px;
+  right: -10px;
+  top: -21px;
+}
+@media (min-width: 768px) {
+  .skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop:after {
+    top: -20px;
+  }
+}
+.skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop .skoda1_header-phone-number {
+  color: #FFF;
+}
+.skoda1_page-header .navbar-toggle {
+  color: white;
+  background: none;
+  border: none;
+  font-size: 20px;
+  padding: 0;
+}
+.skoda1_page-header .navbar-collapse {
+  border-top: 0;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+@media (min-width: 768px) {
+  .skoda1_page-header .navbar-collapse {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.skoda1_page-header .navbar-default .navbar-toggle:focus,
+.skoda1_page-header .navbar-default .navbar-toggle:hover {
+  background: none;
+}
+.skoda1_page-header .skoda1_site-contact-mobile {
+  margin-bottom: 0;
+  line-height: 50px;
+  color: #000;
+  text-transform: uppercase;
+}
+.skoda1_page-header .skoda1_site-contact-mobile .skoda1_header-phone-number {
+  color: #FFF;
+}
+
+.page-banner {
+  position: relative;
+  top: -44px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.skoda_home-banner .carousel-inner > .item > img {
+  max-width: none;
+}
+
+.skoda1-form .form-control,
+.skoda1-form textarea {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #3e7d2b;
+  -moz-box-shadow: inset 0 2px 12px #bababa;
+  -webkit-box-shadow: inset 0 2px 12px #bababa;
+  box-shadow: inset 0 2px 12px #bababa;
+  background-clip: padding-box;
+}
+.skoda1-form legend {
+  border: 0;
+  text-transform: uppercase;
+  color: #dbeed5;
+  font-family: "skoda_probold";
+  margin-bottom: 0px;
+}
+.skoda1-form fieldset {
+  margin-bottom: 15px;
+}
+.skoda1-form textarea {
+  width: 100%;
+  margin-bottom: 3px;
+}
+.skoda1-form label {
+  font-weight: normal;
+}
+.skoda1-form .form-group {
+  position: relative;
+  margin-bottom: 8px;
+}
+.skoda1-form .required {
+  color: #ed1c24;
+  margin-left: 3px;
+}
+.skoda1-form .select-form-control {
+  background: #fff url(../img/select-dropdown-bg.png) no-repeat 97.5% 10px;
+  border-color: #3e7d2b;
+  -moz-box-shadow: inset 0 2px 12px #bababa;
+  -webkit-box-shadow: inset 0 2px 12px #bababa;
+  box-shadow: inset 0 2px 12px #bababa;
+  background-clip: padding-box;
+}
+
+.skoda1_quick-search-form {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRiYTgyZSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzNmOGUyNyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4ba82e), color-stop(100%, #3f8e27));
+  background-image: -moz-linear-gradient(#4ba82e, #3f8e27);
+  background-image: -webkit-linear-gradient(#4ba82e, #3f8e27);
+  background-image: linear-gradient(#4ba82e, #3f8e27);
+  color: #FFF;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: -95px;
+  margin-bottom: 30px;
+}
+@media (min-width: 768px) {
+  .skoda1_quick-search-form {
+    height: 150px;
+  }
+}
+.skoda1_quick-search-form h3 {
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  color: #dbeed5;
+}
+.skoda1_quick-search-form .form-label {
+  width: 15%;
+  float: left;
+  display: block;
+  margin-top: 5px;
+}
+.skoda1_quick-search-form .form-input {
+  width: 85%;
+  float: right;
+}
+.skoda1_quick-search-form .form-group {
+  margin-bottom: 8px;
+}
+.skoda1_quick-search-form .form-control {
+  padding: 5px 12px;
+  height: 30px;
+}
+.skoda1_quick-search-form .btn-primary span {
+  padding: 18px 50px;
+  font-size: 21px;
+}
+.skoda1_quick-search-form #price-range {
+  width: 80%;
+  margin-left: 1em;
+}
+.skoda1_quick-search-form #min-price,
+.skoda1_quick-search-form #max-price {
+  width: 50px;
+  text-align: center;
+}
+
+.skoda1-tradein-form label,
+.skoda1-enquiry-form label {
+  position: absolute;
+  color: #4b4b4b;
+  margin: 5px 0 0 10px;
+}
+.skoda1-tradein-form textarea,
+.skoda1-enquiry-form textarea {
+  min-height: 90px;
+}
+
+.skoda1_page-body-content .skoda1_intro-text {
+  margin-bottom: 20px;
+}
+.skoda1_page-body-content .skoda1_intro-text .skoda1_widget-title {
+  color: #a7aeb4;
+}
+.skoda1_page-body-content .skoda1_cta-block {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #9f9f9f;
+  background-clip: padding-box;
+  margin-bottom: 10px;
+  position: relative;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmVmZiIvPjxzdG9wIG9mZnNldD0iNTElIiBzdG9wLWNvbG9yPSIjZjZmNmY2Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZWJlYmViIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #fffeff), color-stop(51%, #f6f6f6), color-stop(100%, #ebebeb));
+  background-image: -moz-linear-gradient(top, #fffeff 0%, #f6f6f6 51%, #ebebeb 100%);
+  background-image: -webkit-linear-gradient(top, #fffeff 0%, #f6f6f6 51%, #ebebeb 100%);
+  background-image: linear-gradient(to bottom, #fffeff 0%, #f6f6f6 51%, #ebebeb 100%);
+}
+.skoda1_page-body-content .skoda1_cta-block .cta-block-content {
+  float: left;
+  height: 84px;
+  padding: 10px 0 10px 20px;
+}
+.skoda1_page-body-content .skoda1_cta-block .cta-block-content h4 {
+  margin: 0;
+  text-transform: uppercase;
+  color: #a7aeb4;
+}
+.skoda1_page-body-content .skoda1_cta-block .cta-block-content a {
+  font-weight: bold;
+}
+.skoda1_page-body-content .skoda1_cta-block .cta-block-content span {
+  display: block;
+}
+.skoda1_page-body-content .skoda1_cta-block img {
+  position: absolute;
+  right: -1px;
+  top: -1px;
+}
+
+@media (min-width: 970px) {
+  .car-gallery .owl-carousel {
+    padding: 0 70px;
+  }
+}
+.car-gallery .skoda1_widget-title {
+  margin-bottom: 30px;
+}
+.car-gallery .skoda1_car-image {
+  border: 5px solid #FFF;
+  width: 200px;
+  height: auto;
+  margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .car-gallery .skoda1_car-image {
+    width: 270px;
+  }
+}
+@media (min-width: 970px) {
+  .car-gallery .skoda1_car-image {
+    float: left;
+    width: 148px;
+    margin: 0;
+  }
+}
+.car-gallery .item.active .skoda1_car-image img {
+  -moz-box-shadow: inset -2px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  -webkit-box-shadow: inset -2px 1px 5px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: inset -2px 1px 5px 0px rgba(50, 50, 50, 0.75);
+}
+.car-gallery .skoda1_car-sale-mini-info {
+  text-align: center;
+  margin: 10px auto 0;
+  width: 225px;
+}
+@media (min-width: 970px) {
+  .car-gallery .skoda1_car-sale-mini-info {
+    text-align: left;
+    margin: 0 10px 0;
+    width: 57%;
+    float: right;
+  }
+}
+.car-gallery .skoda1_car-sale-mini-info .car-name {
+  font-size: 19px;
+  line-height: 19px;
+}
+.car-gallery .skoda1_car-sale-mini-info .car-price {
+  font-size: 26px;
+  color: #8af66c;
+}
+.car-gallery .skoda1_car-gallery-nav {
+  width: 100%;
+  position: relative;
+}
+.car-gallery .skoda1_car-gallery-nav img {
+  width: 20px;
+  height: 28px;
+}
+@media (min-width: 750px) {
+  .car-gallery .skoda1_car-gallery-nav img {
+    width: 33px;
+    height: 43px;
+  }
+}
+@media (min-width: 970px) {
+  .car-gallery .skoda1_car-gallery-nav img {
+    width: auto;
+    height: auto;
+  }
+}
+.car-gallery .skoda1_car-gallery-nav a {
+  position: absolute;
+  cursor: pointer;
+  top: -230px;
+}
+@media (min-width: 750px) {
+  .car-gallery .skoda1_car-gallery-nav a {
+    top: -260px;
+  }
+}
+@media (min-width: 970px) {
+  .car-gallery .skoda1_car-gallery-nav a {
+    top: -95px;
+  }
+}
+.car-gallery .skoda1_car-gallery-nav .prev {
+  left: 0;
+}
+.car-gallery .skoda1_car-gallery-nav .next {
+  right: 0;
+}
+
+.inner-page .skoda1_page-bottom-content .skoda1_page-bottom-content-inner:after {
+  display: none;
+}
+@media (min-width: 750px) {
+  .inner-page .skoda1_page-bottom-content .skoda1_page-bottom-content-inner:after {
+    display: block;
+  }
+}
+.inner-page .skoda1_page-bottom-heading {
+  color: #FFF;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzE5MTkxOSIvPjxzdG9wIG9mZnNldD0iNTAlIiBzdG9wLWNvbG9yPSIjMGYxMDEwIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDEwMTAxIi8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #191919), color-stop(50%, #0f1010), color-stop(100%, #010101));
+  background-image: -moz-linear-gradient(#191919, #0f1010, #010101);
+  background-image: -webkit-linear-gradient(#191919, #0f1010, #010101);
+  background-image: linear-gradient(#191919, #0f1010, #010101);
+  position: relative;
+  height: 50px;
+}
+.inner-page .skoda1_page-bottom-heading:before {
+  content: "";
+  border-top: 1px solid red;
+  padding-top: 1px;
+  height: 1px;
+}
+.inner-page .skoda1_page-bottom-heading:after {
+  font-family: "Glyphicons Halflings";
+  text-align: center;
+  content: "";
+  font-size: 20px;
+  background: url("../img/bg-footer-overlay.png") no-repeat;
+  width: 159px;
+  height: 34px;
+  margin: 0 auto;
+  display: block;
+}
+.inner-page .skoda1_page-bottom-heading .heading-message {
+  margin: 0;
+  font-family: "skoda_probold";
+  padding: 15px 0 16px;
+  text-transform: uppercase;
+}
+
+.gmap3 {
+  width: 100%;
+  height: 460px;
+}
+
+@media (min-width: 970px) {
+  .skoda1_contact-page-map .map-wrapper {
+    width: 100%;
+  }
+}
+.skoda1_contact-page-map .container > .row {
+  margin-top: -120px;
+}
+@media (min-width: 750px) {
+  .skoda1_contact-page-map .container > .row {
+    margin-top: -80px;
+  }
+}
+.skoda1_contact-page-map .btn {
+  margin-bottom: 10px;
+}
+
+.vehicle-details-nav {
+  margin-top: -44px;
+}
+
+.skoda1_vehicle-details-content {
+  padding-bottom: 0;
+}
+.skoda1_vehicle-details-content .section-text .skoda1_widget-title {
+  margin-bottom: 0;
+}
+.skoda1_vehicle-details-content .section-text .car-price {
+  font-family: "skoda_probold";
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #4ba82e;
+}
+.skoda1_vehicle-details-content .skoda1_features-content-section {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("../img/car-gallery-bg.jpg");
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("../img/car-gallery-bg.jpg");
+  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-position: 0 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #FFF;
+  width: 100%;
+}
+.skoda1_vehicle-details-content .skoda1_features-content-section .highlight {
+  color: #000;
+  font-size: 36px;
+}
+.skoda1_vehicle-details-content #skoda1_features-gallery {
+  position: relative;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section {
+  width: 100%;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view {
+  position: relative;
+  overflow: hidden;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view .view-car-image {
+  width: 80%;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view .view-car-image {
+    width: auto;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-right,
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-left {
+  position: absolute;
+  top: 50%;
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-right img,
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-left img {
+  width: 50%;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-right img,
+  .skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view > a.rotate-left img {
+    width: 100%;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view .rotate-right {
+  left: 38px;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view .rotate-left {
+  right: -74px;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_360-view .rotate-left {
+    right: -38px;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection {
+  margin-bottom: 30px;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection ul > li > span {
+  position: relative;
+  top: -7px;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color {
+  border: 1px solid transparent;
+  height: 26px;
+  width: 26px;
+  display: block;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-one {
+  border-color: #e90404;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YxNjM2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2U5MDQwNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f16363), color-stop(100%, #e90404));
+  background-image: -moz-linear-gradient(#f16363, #e90404);
+  background-image: -webkit-linear-gradient(#f16363, #e90404);
+  background-image: linear-gradient(#f16363, #e90404);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-two {
+  border-color: #000;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYxNjE2MSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #616161), color-stop(100%, #000000));
+  background-image: -moz-linear-gradient(#616161, #000000);
+  background-image: -webkit-linear-gradient(#616161, #000000);
+  background-image: linear-gradient(#616161, #000000);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-three {
+  border-color: #edeeef;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2YzZjRmNCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VkZWVlZiIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f3f4f4), color-stop(100%, #edeeef));
+  background-image: -moz-linear-gradient(#f3f4f4, #edeeef);
+  background-image: -webkit-linear-gradient(#f3f4f4, #edeeef);
+  background-image: linear-gradient(#f3f4f4, #edeeef);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-four {
+  border-color: #0a8cc1;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzYzYjZkNyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzBhOGNjMSIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #63b6d7), color-stop(100%, #0a8cc1));
+  background-image: -moz-linear-gradient(#63b6d7, #0a8cc1);
+  background-image: -webkit-linear-gradient(#63b6d7, #0a8cc1);
+  background-image: linear-gradient(#63b6d7, #0a8cc1);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-five {
+  border-color: #9c9c9c;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JmYmZiZiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzljOWM5YyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #bfbfbf), color-stop(100%, #9c9c9c));
+  background-image: -moz-linear-gradient(#bfbfbf, #9c9c9c);
+  background-image: -webkit-linear-gradient(#bfbfbf, #9c9c9c);
+  background-image: linear-gradient(#bfbfbf, #9c9c9c);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-six {
+  border-color: #cb8e0c;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2RlYjc2MyIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NiOGUwYyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #deb763), color-stop(100%, #cb8e0c));
+  background-image: -moz-linear-gradient(#deb763, #cb8e0c);
+  background-image: -webkit-linear-gradient(#deb763, #cb8e0c);
+  background-image: linear-gradient(#deb763, #cb8e0c);
+}
+.skoda1_vehicle-details-content .skoda1_car-view-section .skoda1_color-selection .color-seven {
+  border-color: #747474;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2E2YTZhNiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzc0NzQ3NCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #a6a6a6), color-stop(100%, #747474));
+  background-image: -moz-linear-gradient(#a6a6a6, #747474);
+  background-image: -webkit-linear-gradient(#a6a6a6, #747474);
+  background-image: linear-gradient(#a6a6a6, #747474);
+}
+.skoda1_vehicle-details-content #skoda1_vehicle-gallery .carousel-inner > .item > img {
+  max-width: none;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav {
+  width: 100%;
+  height: 50px;
+  position: relative;
+  background-color: black;
+  color: #FFF;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .skoda1_widget-title {
+  margin-bottom: 0;
+  position: relative;
+  top: 3px;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .skoda1_widget-title {
+    top: 13px;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .numslide {
+  font-family: "skoda_probold";
+  text-transform: uppercase;
+  float: none;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .numslide {
+    float: right;
+    position: relative;
+    top: -7px;
+    left: -150px;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .numslide .current-slide {
+  color: #4ba82e;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-gallery-nav .container {
+  position: relative;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section {
+  background-color: #EFEFEF;
+  width: 100%;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_widget-title {
+  margin-bottom: 20px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_vehicle-range-form {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  background-color: #4ba82e;
+  margin-bottom: 30px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_vehicle-range-form .select-form-control {
+  background-position: 97% 13px;
+  height: 38px;
+  margin-bottom: 7px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_vehicle-range-form .results-text {
+  color: #FFF;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_vehicle-range-form .results-text span {
+  display: block;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_vehicle-range-form .results-text .count {
+  color: #dbeed5;
+  font-size: 32px;
+  line-height: 32px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item {
+  margin-bottom: 30px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-details {
+  margin-top: 15px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-details p {
+  font-size: 18px;
+  color: #4ba82e;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-details span {
+  display: block;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-details .pricing {
+  font-size: 32px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image {
+  position: relative;
+  cursor: pointer;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image:hover .result-overlay-wrap {
+  display: block;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .result-overlay-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: none;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info {
+  position: relative;
+  z-index: 10;
+  color: #FFF;
+  padding: 30px;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info {
+    padding: 10px;
+  }
+}
+@media (min-width: 992px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info {
+    padding: 30px;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info:after {
+  content: "";
+  background-color: #000;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -1;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-label,
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-value {
+  float: left;
+  width: 50%;
+  margin-bottom: 10px;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-label span,
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-value span {
+  display: block;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-buttons {
+  clear: left;
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-buttons .btn > span {
+  padding: 5px 12px;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-buttons .btn > span {
+    padding: 3px 8px;
+  }
+}
+@media (min-width: 992px) {
+  .skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-buttons .btn > span {
+    padding: 5px 12px;
+  }
+}
+.skoda1_vehicle-details-content .skoda1_vehicle-range-section .skoda1_car-results .car-result-item .car-result-image .car-result-overlay-info .car-result-details-buttons .btn-more-details {
+  margin-bottom: 10px;
+}
+.skoda1_vehicle-details-content .skoda1_page-bottom-content .skoda1_page-bottom-content-inner {
+  padding: 30px 0;
+}
+.skoda1_vehicle-details-content .skoda1_page-bottom-content .skoda1_page-bottom-content-inner:after {
+  position: static;
+  height: auto;
+}
+.skoda1_vehicle-details-content .skoda1_page-bottom-content h3, .skoda1_vehicle-details-content .skoda1_page-bottom-content p {
+  margin: 0;
+}
+.skoda1_vehicle-details-content .skoda1_page-bottom-content .btn {
+  margin: 20px 0;
+}
+@media (min-width: 750px) {
+  .skoda1_vehicle-details-content .skoda1_page-bottom-content .btn {
+    margin: 0;
+  }
+}
+
+.skoda1_gallery-nav {
+  text-align: center;
+  font-size: 16px;
+  padding-top: 5px;
+  width: 159px;
+  height: 35px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: url("../img/custom-shape-bg.png") no-repeat;
+}
+.skoda1_gallery-nav a {
+  padding: 0 3px;
+}
+.skoda1_gallery-nav a:active, .skoda1_gallery-nav a:focus {
+  color: #000;
+}
+
+.skoda1_widget-area {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzFmMWYxZiIvPjxzdG9wIG9mZnNldD0iNDQlIiBzdG9wLWNvbG9yPSIjMTIxMjEzIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDYwNjA2Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #1f1f1f), color-stop(44%, #121213), color-stop(100%, #060606));
+  background-image: -moz-linear-gradient(top, #1f1f1f 0%, #121213 44%, #060606 100%);
+  background-image: -webkit-linear-gradient(top, #1f1f1f 0%, #121213 44%, #060606 100%);
+  background-image: linear-gradient(to bottom, #1f1f1f 0%, #121213 44%, #060606 100%);
+  color: #FFF;
+}
+.skoda1_widget-area .container {
+  position: relative;
+}
+.skoda1_widget-area .skoda1_widget-overlay-bg:after {
+  content: "";
+  background: url("../img/bg-footer-overlay.png") no-repeat;
+  width: 159px;
+  height: 34px;
+  position: absolute;
+  right: 9%;
+  bottom: -34px;
+}
+@media (min-width: 768px) {
+  .skoda1_widget-area .skoda1_widget-overlay-bg:after {
+    right: 0;
+  }
+}
+.skoda1_widget-area .column-widget-1 {
+  border-left: 1px solid #555554;
+  border-right: 1px solid #555554;
+}
+.skoda1_widget-area .column-widget-1 .address-widget,
+.skoda1_widget-area .column-widget-1 .phone-widget,
+.skoda1_widget-area .column-widget-1 .email-widget,
+.skoda1_widget-area .column-widget-1 .schedule-widget {
+  text-align: center;
+  height: 145px;
+}
+.skoda1_widget-area .column-widget-1 .address-widget i,
+.skoda1_widget-area .column-widget-1 .phone-widget i,
+.skoda1_widget-area .column-widget-1 .email-widget i,
+.skoda1_widget-area .column-widget-1 .schedule-widget i {
+  color: #4ba82e;
+  font-size: 42px;
+  display: block;
+  margin-bottom: 15px;
+}
+.skoda1_widget-area .column-widget-1 .address-widget span,
+.skoda1_widget-area .column-widget-1 .phone-widget span,
+.skoda1_widget-area .column-widget-1 .email-widget span,
+.skoda1_widget-area .column-widget-1 .schedule-widget span {
+  display: block;
+}
+.skoda1_widget-area .column-widget-1 .address-widget a,
+.skoda1_widget-area .column-widget-1 .phone-widget a,
+.skoda1_widget-area .column-widget-1 .email-widget a,
+.skoda1_widget-area .column-widget-1 .schedule-widget a {
+  color: #a7aeb4;
+}
+.skoda1_widget-area .column-widget-1 .address-widget .widget-inner,
+.skoda1_widget-area .column-widget-1 .phone-widget .widget-inner,
+.skoda1_widget-area .column-widget-1 .email-widget .widget-inner,
+.skoda1_widget-area .column-widget-1 .schedule-widget .widget-inner {
+  margin-top: 20px;
+}
+.skoda1_widget-area .column-widget-1 .address-widget {
+  border-right: 1px solid #555554;
+  border-bottom: 1px solid #555554;
+}
+.skoda1_widget-area .column-widget-1 .phone-widget {
+  border-bottom: 1px solid #555554;
+}
+.skoda1_widget-area .column-widget-1 .email-widget {
+  border-right: 1px solid #555554;
+}
+.skoda1_widget-area .column-widget-2 {
+  padding: 5%;
+}
+@media (min-width: 992px) {
+  .skoda1_widget-area .column-widget-2 p {
+    line-height: 24px;
+  }
+}
+
+.skoda1_footer-bottom {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: 14px;
+  text-align: center;
+}
+@media (min-width: 767px) {
+  .skoda1_footer-bottom {
+    text-align: left;
+  }
+}
+.skoda1_footer-bottom p {
+  font-size: 13px;
+}
+.skoda1_footer-bottom .skoda1_footer-social-links-wrap a {
+  color: #a7aeb4;
+  font-size: 36px;
+  padding-left: 20px;
+}
+.skoda1_footer-bottom .skoda1_footer-social-links-wrap .skoda1_footer-social {
+  float: none;
+  margin-top: 20px;
+}
+@media (min-width: 767px) {
+  .skoda1_footer-bottom .skoda1_footer-social-links-wrap .skoda1_footer-social {
+    margin-top: 0;
+    float: right;
+  }
+}
