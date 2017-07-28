@@ -158,12 +158,12 @@ h6 {
   }
 }
 .skoda1_page-bottom-content {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("../img/car-gallery-bg.jpg");
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("img/car-gallery-bg.jpg");
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("../img/car-gallery-bg.jpg");
-  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
-  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
-  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("img/car-gallery-bg.jpg");
+  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
+  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -175,7 +175,7 @@ h6 {
 }
 .skoda1_page-bottom-content .skoda1_page-bottom-content-inner:after {
   content: "";
-  background: url("../img/custom-shape-bg.png") no-repeat;
+  background: url("img/custom-shape-bg.png") no-repeat;
   height: 35px;
   position: absolute;
   width: 159px;
@@ -347,7 +347,7 @@ h6 {
 }
 .skoda1_page-header .skoda1_site-info .skoda1_site-contact-desktop:after {
   content: "";
-  background: url("../img/logo-overlay-bg.png") no-repeat;
+  background: url("img/logo-overlay-bg.png") no-repeat;
   height: 35px;
   position: absolute;
   width: 161px;
@@ -445,7 +445,7 @@ h6 {
   margin-left: 3px;
 }
 .skoda1-form .select-form-control {
-  background: #fff url(../img/select-dropdown-bg.png) no-repeat 97.5% 10px;
+  background: #fff url(img/select-dropdown-bg.png) no-repeat 97.5% 10px;
   border-color: #3e7d2b;
   -moz-box-shadow: inset 0 2px 12px #bababa;
   -webkit-box-shadow: inset 0 2px 12px #bababa;
@@ -685,7 +685,7 @@ h6 {
   text-align: center;
   content: "";
   font-size: 20px;
-  background: url("../img/bg-footer-overlay.png") no-repeat;
+  background: url("img/bg-footer-overlay.png") no-repeat;
   width: 159px;
   height: 34px;
   margin: 0 auto;
@@ -737,12 +737,12 @@ h6 {
   color: #4ba82e;
 }
 .skoda1_vehicle-details-content .skoda1_features-content-section {
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("../img/car-gallery-bg.jpg");
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzQwOGYyNyIgc3RvcC1vcGFjaXR5PSIwLjk0Ii8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjNDA4ZjI3IiBzdG9wLW9wYWNpdHk9IjAuOTQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA='), url("img/car-gallery-bg.jpg");
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("../img/car-gallery-bg.jpg");
-  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
-  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
-  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("../img/car-gallery-bg.jpg");
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, rgba(64, 143, 39, 0.94)), color-stop(100%, rgba(64, 143, 39, 0.94))), url("img/car-gallery-bg.jpg");
+  background-image: -moz-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
+  background-image: -webkit-linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
+  background-image: linear-gradient(rgba(64, 143, 39, 0.94), rgba(64, 143, 39, 0.94)), url("img/car-gallery-bg.jpg");
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1063,7 +1063,7 @@ h6 {
   position: absolute;
   top: 0;
   right: 0;
-  background: url("../img/custom-shape-bg.png") no-repeat;
+  background: url("img/custom-shape-bg.png") no-repeat;
 }
 .skoda1_gallery-nav a {
   padding: 0 3px;
@@ -1086,7 +1086,7 @@ h6 {
 }
 .skoda1_widget-area .skoda1_widget-overlay-bg:after {
   content: "";
-  background: url("../img/bg-footer-overlay.png") no-repeat;
+  background: url("img/bg-footer-overlay.png") no-repeat;
   width: 159px;
   height: 34px;
   position: absolute;
