@@ -39,7 +39,11 @@ class Sidebar_CTA_Widget extends WP_Widget {
       <input type="text" name="<?php echo $this->get_field_name('cta_url'); ?>" value="<?php echo $instance['cta_url']; ?>" class="widefat">
     </p>
     <p>
-      <button class="button button-secondary">Set background image</button>
+      <button id="cta_bg_img" class="button button-secondary">Set background image</button>
+      <input type="hidden" name="<?php echo $this->get_field_name('cta_bg_img_url'); ?>" value="<?php echo $instance['cta_bg_img_url']; ?>" class="cta_bg_link" />
+      <div class="image_show">
+        <img id="<?php echo $this->id; ?>" src="<?php echo $instance['cta_bg_img_url']; ?>" height="auto" alt="">
+      </div>
     </p><?php
   }
 
@@ -55,7 +59,7 @@ class Sidebar_CTA_Widget extends WP_Widget {
       <a class="bold-text" href="<?php echo $instance['cta_url']; ?>"><?php echo $instance['cta_link_text']; ?> &raquo;</a>
     </div>
 
-    <img alt="" class="pull-right" src="img/cta1-bg.png">
+    <img alt="<?php echo $instance['title'] ; ?>" class="pull-right" src="<?php echo $instance['cta_bg_img_url']; ?>">
 
     <?php echo $args['after_widget']; }
   }

@@ -147,6 +147,18 @@ function ds_skoda_scripts() {
 add_action( 'wp_enqueue_scripts', 'ds_skoda_scripts' );
 
 /**
+ * Enqueue Admin scripts
+ */
+add_action( 'admin_enqueue_scripts', 'ds_skoda_admin_scripts');
+
+function ds_skoda_admin_scripts() {
+	wp_enqueue_media();
+	wp_register_script('admin_custom_script', get_template_directory_uri() . '/js/admin-scripts.js', array('jquery') );
+	wp_enqueue_script('admin_custom_script');
+}
+
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
