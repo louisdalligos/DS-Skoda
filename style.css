@@ -1166,8 +1166,27 @@ h6 {
     text-align: left;
   }
 }
-.skoda1_footer-bottom p {
+.skoda1_footer-bottom p,
+.skoda1_footer-bottom ul li {
   font-size: 13px;
+}
+.skoda1_footer-bottom ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.skoda1_footer-bottom ul li {
+  display: inline;
+}
+.dealer_link {
+  clear: left;
+}
+.skoda1_footer-bottom ul li:before {
+  content: '/';
+  padding: 0 5px;
+}
+.skoda1-copyright {
+  float: left;
 }
 .skoda1_footer-bottom .skoda1_footer-social-links-wrap a {
   color: #a7aeb4;
