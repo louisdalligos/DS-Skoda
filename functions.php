@@ -189,3 +189,48 @@ if ( defined( 'JETPACK__VERSION' ) ) {
  * Implement custom widget feature.
  */
 require get_template_directory() . '/inc/custom-widgets.php';
+
+
+/**
+ * Register our metaboxes.
+ */
+function ds_get_meta_box( $meta_boxes ) {
+	$prefix = 'ds-';
+
+	$meta_boxes[] = array(
+		'id' => 'banner-slider',
+		'title' => esc_html__( 'Banner Slider', 'ds-skoda' ),
+		'post_types' => array( 'page' ),
+		'context' => 'advanced',
+		'priority' => 'default',
+		'autosave' => false,
+		'fields' => array(
+			array(
+				'id' => $prefix . 'banner-slider-image',
+				'type' => 'image_advanced',
+				'name' => esc_html__( 'Slides', 'ds-skoda' ),
+			)
+		)
+	);
+
+	$meta_boxes[] = array(
+		'title'  => esc_html__( 'Page Banner', 'ds-skoda' ),
+		'post_types' => array( 'page' ),
+		'fields' => array(
+			array(
+				'id'               => $prefix . 'page-banner-image',
+				'name'             => esc_html__( 'Image', 'ds-skoda' ),
+				'type'             => 'image',
+				'force_delete'     => false
+			),
+		)
+	);
+
+	return $meta_boxes;
+}
+add_filter( 'rwmb_meta_boxes', 'ds_get_meta_box' );
+
+/**
+ * Get field meta value
+ */
+rwmb_the_value( $field_id, $args = array(), $post_id = null, $echo = true );
