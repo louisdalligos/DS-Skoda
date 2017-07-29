@@ -203,6 +203,7 @@ require get_template_directory() . '/inc/custom-post-types.php';
 function ds_get_meta_box( $meta_boxes ) {
 	$prefix = 'ds-';
 
+	// home banner slider
 	$meta_boxes[] = array(
 		'id' => 'banner-slider',
 		'title' => esc_html__( 'Banner Slider', 'ds-skoda' ),
@@ -219,6 +220,7 @@ function ds_get_meta_box( $meta_boxes ) {
 		)
 	);
 
+	// page banner
 	$meta_boxes[] = array(
 		'title'  => esc_html__( 'Page Banner', 'ds-skoda' ),
 		'post_types' => array( 'page' ),
@@ -230,6 +232,30 @@ function ds_get_meta_box( $meta_boxes ) {
 				'force_delete'     => false
 			),
 		)
+	);
+
+	// car price
+	$meta_boxes[] = array(
+		'title'  => __( 'Car Price', 'ds-skoda' ),
+		'post_types' => array( 'car' ),
+		'fields' => array(
+			array(
+				'name'        => __( 'Sale Price', 'ds-skoda' ),
+				'label_description' => __( 'The price of the car', 'your' ),
+				'id'          => $prefix . 'car-price',
+				'desc'        => __( 'This price will update after saving', 'ds-skoda' ),
+				'type'        => 'text',
+
+				// Default value (optional)
+				'std'         => __( '$1,000', 'ds-skoda' ),
+
+				// Placeholder
+				'placeholder' => __( 'Enter the price here', 'ds-skoda' ),
+
+				// Input size
+				'size'        => 30,
+			),
+		),
 	);
 
 	return $meta_boxes;
