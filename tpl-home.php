@@ -5,7 +5,7 @@
  * @package ds-skoda
  *
  */
- 
+
  get_header();
 
    while ( have_posts() ) : the_post(); ?>
@@ -116,5 +116,42 @@
 
    <?php endwhile; // End of the loop.
    ?>
+
+   <section class="car-gallery skoda1_page-bottom-content">
+   	<div class="container">
+   		<div class="skoda1_page-bottom-content-inner">
+   			<h3 class="skoda1_widget-title text-center">Currently in stock</h3><!-- Car Gallery -->
+   			<div class="owl-carousel owl-theme" id="skoda1_car-gallery">
+   				<div class="item active">
+   					<div class="skoda1_car-image"><img alt="Skoda" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/home-gallery-car1.jpg"></div>
+   					<div class="skoda1_car-sale-mini-info bold-text">
+   						<span class="car-name">2011 Skoda Octavia 90TSI DSG 1Z MY11 Liftback</span> <span class="car-price">$16,495.00</span> <a class="btn btn-primary btn-block" href="#"><span>View Details</span></a>
+   					</div>
+   				</div>
+   				<div class="item">
+   					<div class="skoda1_car-image"><img alt="Skoda" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/home-gallery-car2.jpg"></div>
+   					<div class="skoda1_car-sale-mini-info bold-text">
+   						<span class="car-name">2011 Skoda Octavia 90TSI DSG 1Z MY11 Liftback</span> <span class="car-price">$16,495.00</span> <a class="btn btn-primary btn-block" href="#"><span>View Details</span></a>
+   					</div>
+   				</div>
+   				<div class="item">
+   					<div class="skoda1_car-image"><img alt="Skoda" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/home-gallery-car2.jpg"></div>
+   					<div class="skoda1_car-sale-mini-info bold-text">
+   						<span class="car-name">2011 Skoda Octavia 90TSI DSG 1Z MY11 Liftback</span> <span class="car-price">$16,495.00</span> <a class="btn btn-primary btn-block" href="#"><span>View Details</span></a>
+   					</div>
+   				</div>
+   				<div class="item">
+   					<div class="skoda1_car-image"><img alt="Skoda" class="img-responsive" src="<?php echo get_template_directory_uri(); ?>/img/home-gallery-car1.jpg"></div>
+   					<div class="skoda1_car-sale-mini-info bold-text">
+   						<span class="car-name">2011 Skoda Octavia 90TSI DSG 1Z MY11 Liftback</span> <span class="car-price">$16,495.00</span> <a class="btn btn-primary btn-block" href="#"><span>View Details</span></a>
+   					</div>
+   				</div>
+   			</div>
+   			<div class="skoda1_car-gallery-nav">
+   				<a class="prev"><img alt="Previous" src="<?php echo get_template_directory_uri(); ?>/img/gallery-nav-prev.png"></a> <a class="next"><img alt="Next" src="<?php echo get_template_directory_uri(); ?>/img/gallery-nav-next.png"></a>
+   			</div>
+   		</div>
+   	</div>
+   </section>
 
  <?php get_footer(); ?>

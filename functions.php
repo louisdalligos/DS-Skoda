@@ -192,6 +192,12 @@ require get_template_directory() . '/inc/custom-widgets.php';
 
 
 /**
+ * Implement custom post types.
+ */
+require get_template_directory() . '/inc/custom-post-types.php';
+
+
+/**
  * Register our metaboxes.
  */
 function ds_get_meta_box( $meta_boxes ) {
