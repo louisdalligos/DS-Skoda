@@ -140,7 +140,7 @@
             $cars = new WP_Query( $args );
 
             if( $cars->have_posts() ) : while( $cars->have_posts() ) : $cars->the_post(); ?>
-       				<div class="item active">
+       				<div id="post-<?php the_ID(); ?>" class="item active">
        					<div class="skoda1_car-image">
                   <?php
                     $image = wp_get_attachment_url( get_post_thumbnail_id($post->ID));
@@ -151,7 +151,7 @@
        					<div class="skoda1_car-sale-mini-info bold-text">
        						<span class="car-name"><?php echo get_the_title(); ?></span>
                   <span class="car-price"><?php echo rwmb_meta( 'ds-car-price' ); ?></span>
-                  <a class="btn btn-primary btn-block" href="#"><span>View Details</span></a>
+                  <a class="btn btn-primary btn-block" href="<?php echo get_permalink( $post->ID ); ?>"><span>View Details</span></a>
        					</div>
        				</div><!-- end item --><?php
               endwhile;

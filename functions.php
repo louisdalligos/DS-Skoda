@@ -223,7 +223,7 @@ function ds_get_meta_box( $meta_boxes ) {
 	// page banner
 	$meta_boxes[] = array(
 		'title'  => esc_html__( 'Page Banner', 'ds-skoda' ),
-		'post_types' => array( 'page' ),
+		'post_types' => array( 'page', 'car' ),
 		'fields' => array(
 			array(
 				'id'               => $prefix . 'page-banner-image',
